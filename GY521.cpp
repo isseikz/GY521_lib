@@ -12,7 +12,7 @@ int get_value(int addr){
   return accel;
 }
 
-void initialize(){
+void initialize_gy521(){
   Wire.begin();
   Wire.beginTransmission(MPU);
   Wire.write(0x6B);

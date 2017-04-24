@@ -1,7 +1,7 @@
 #ifndef _GY521_h
 #define _GY521_h
 
-void initialize();
+void initialize_gy521();
 
 int acceleration_x();
 int acceleration_y();
