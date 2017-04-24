@@ -33,4 +33,18 @@ int acceleration_y(){
   return get_value(0x3D);
 }
 
+int temperature_z(){
+  return get_value(0x42);
+}
 
+int gyro_x(){
+  return get_value(0x44);
+}
+
+int gyro_y(){
+  return get_value(0x46);
+}
+
+int gyro_z(){
+  return get_value(0x48);
+}
